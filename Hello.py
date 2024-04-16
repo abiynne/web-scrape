@@ -61,7 +61,7 @@ def crawl_and_save(url, max_depth, visited_links=set()):
     return crawled_text
 
 def main():
-    st.title(' Web Crawler')
+    st.title(' Web  Crawler')
 
     site_url = st.text_input('Enter website URL:')
     max_depth = st.slider('Select max depth:', min_value=1, max_value=10, value=6)
